@@ -1,0 +1,132 @@
+body{
+    margin:0px;
+    font-family: Street2,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.icon{
+    height:50px;
+    width:50px;
+    
+}
+.HBO{
+    height:70px;
+    width: 70px;
+}
+.navbar {
+    padding:10px;
+    font-size :15px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+       
+}
+.nav-barleft{
+    display:flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight:200;
+    
+}
+.nav-barleft > *,.nav-barright>*{
+    padding:12px;
+}
+
+
+.nav-barright{
+    display:flex;
+    align-items: center;
+}
+
+.get-hbomax{
+    font-weight: 500;
+    border: 1px solid;
+    padding: 8px 12px 8px 12px
+}
+
+.ad>*{
+    padding:12px;
+}
+.ad{
+    padding:13px;
+    width:100%;
+    height:100px;
+    align-items: center;
+    display:flex;
+    background: linear-gradient(80deg, #73109E 0%, #2F0B62 100%);
+    box-shadow: 0 15px 15px rgb(0 0 0 / 20%);
+    font-size: 30px;
+    text-transform: uppercase;
+    
+}
+.banner{
+    color:white;
+    align-items: center;
+    font-weight: 180;
+    text-align:center;
+    
+    
+}
+
+.HBOMAX{
+    text-align:center;
+    height:50px;
+    width: 200px;
+}
+.btn{
+    
+    font-size:10px;
+    background: #b535f6;
+    border-color: #b535f6;
+    color: #fff;
+    margin: 0 1.5rem;
+    padding: 12px 15px;
+    border-radius:2px;
+    transition: width 2s ease;
+}
+.btn:hover{
+    background-color: #fff;
+    border-color: #b535f6;
+    color: #b535f6;
+    transition: width 2s ease
+}
+.adtime{
+    display: block;
+    color: #fff;
+    font-weight:100;
+    font-size:10px;
+
+}
+.hbocontent{
+    background:url("") no-repeat;
+    width: 100%;
+    height:400px;
+}
+.content-pic{
+    width: 100%;
+    height:600px;
+}
+.content-middle{
+    
+    height: 100px;
+    text-align:center;
+    font-size: 2rem;
+    font-weight:100;
+}
+.Stream-cards>*{
+   padding:20px;
+    
+}
+.Stream-cards{
+    
+    text-align: center;
+    
+    padding:20px;
+}
+.card-title{
+    font-size: 16px;
+    font-weight: bold;
+}
+#industry{
+    
+}
